@@ -52,7 +52,9 @@ app.get("/", (request, response) => {
   console.log("Endpoint de home");
   response.json("Endpoint de home");
 })
-
+/**
+ * koders/
+ * /koders/idKoders/materias/idMateria
 /**
  * path params -> modifican la ruta
  * query params -> solo se reciben de request.query
